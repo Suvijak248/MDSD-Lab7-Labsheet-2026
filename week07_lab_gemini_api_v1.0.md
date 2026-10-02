@@ -896,9 +896,10 @@ class MyApp extends StatelessWidget {
 
 > ✅ **Checkpoint 3.1** รันแอปแล้วทดสอบกด Bottom Navigation Bar สลับไปมาระหว่าง "หน้าหลัก" กับ "ลงประกาศขาย" อย่างน้อย 3 รอบ ถ่ายภาพหน้าจอ 2 ภาพ คือ (ก) Tab หน้าหลักที่มี Bottom Navigation Bar แสดงอยู่ด้านล่าง และ (ข) Tab ลงประกาศขายที่เลือกรูปภาพสินค้าไว้แล้ว จากนั้นทดสอบเพิ่มเติมว่าเลือกรูปภาพไว้ใน Tab ลงประกาศขาย แล้วสลับไป Tab หน้าหลักแล้วสลับกลับมา รูปภาพที่เลือกไว้ยังอยู่หรือไม่ (ถ้าหายไป แปลว่ายังใช้ `IndexedStack` ไม่ถูกต้อง ให้ตรวจสอบโค้ดใน `MainScaffold` อีกครั้ง) และทดสอบว่าไอคอนตะกร้าใน AppBar ของ Tab หน้าหลักยังกดไปหน้า Checkout ได้ตามปกติเหมือนที่ทดสอบไว้แล้วใน Checkpoint 0.1
 
-```text
-บันทึกผลลัพธ์ที่นี่
-```
+<img width="1080" height="2408" alt="Screenshot_20261002_203850" src="https://github.com/user-attachments/assets/7af32f83-55e1-4ec7-9c40-06a7d37bd7c4" />
+<img width="1080" height="2408" alt="Screenshot_20261002_203948" src="https://github.com/user-attachments/assets/07cc91b0-a8f4-418a-b44e-913f4454cd9c" />
+<img width="1080" height="2408" alt="Screenshot_20261002_204007" src="https://github.com/user-attachments/assets/e3e3d073-4c00-4106-bb96-fedeae2b9b96" />
+<img width="1080" height="2408" alt="Screenshot_20261002_204018" src="https://github.com/user-attachments/assets/d56e049c-e71b-47e4-a4ca-52c01f0ae3b8" />
 
 ---
 
