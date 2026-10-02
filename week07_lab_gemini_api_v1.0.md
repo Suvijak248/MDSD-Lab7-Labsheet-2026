@@ -944,10 +944,12 @@ class ListingDraft {
 แก้ไขปุ่มที่สร้างไว้ในขั้นตอน 3.2 ให้เรียก `GeminiVisionService().analyzeProductImage(...)` จริง จัดการ 3 สถานะให้ครบตามรูปแบบที่เรียนมาตั้งแต่สัปดาห์ที่ 6 (กำลังวิเคราะห์/สำเร็จ/ผิดพลาด) โดยระหว่างที่กำลังวิเคราะห์ให้แสดง `CircularProgressIndicator` พร้อมข้อความ "AI กำลังวิเคราะห์ภาพสินค้า..." (เพราะใช้เวลานานกว่าการโหลดข้อมูลจาก REST API ทั่วไปตามที่อธิบายในบทหนังสือเรียน)
 
 > ✅ **Checkpoint 4.1** รันแอปแล้วทดสอบเลือกภาพสินค้าจริง กดปุ่ม "ให้ AI ช่วยแนะนำ" ถ่ายภาพหน้าจอผลลัพธ์ที่ AI วิเคราะห์ได้ (title/category/description) ทดสอบซ้ำกับภาพสินค้าอย่างน้อย 3 ภาพที่ต่างกัน แนบภาพหน้าจอทั้ง 3 กรณี 
+---
 
-```text
-บันทึกผลลัพธ์ที่นี่
-```
+<img width="1080" height="2408" alt="Screenshot_20261002_211250" src="https://github.com/user-attachments/assets/acd6d3c3-9bc7-41b9-9b92-0a3796ab7215" />
+<img width="1080" height="2408" alt="Screenshot_20261002_210756" src="https://github.com/user-attachments/assets/7e064b06-fc43-488b-9bd7-09e115b70ba9" />
+<img width="1080" height="2408" alt="Screenshot_20261002_211423" src="https://github.com/user-attachments/assets/1260bbde-a919-4b89-9587-e886e504afe6" />
+
 ---
 
 ## ส่วนที่ 5: ออกแบบหน้าจอตรวจทานและแก้ไขก่อนยืนยัน (Human-in-the-loop)
